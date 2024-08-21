@@ -6,7 +6,7 @@ import datetime
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
 # Initialize Anthropic API client
-anthropic = Anthropic(api_key=st.secrets["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"])
+anthropic = Anthropic(api_key=st.secrets["ANTHROPIC_API_KEY"])
 
 # JWT secret key
 JWT_SECRET = st.secrets["JWT_SECRET"]
